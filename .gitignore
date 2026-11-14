@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Allow example environment configuration
+!.env.example
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Downloaded documentation and generated data
+data/raw/
+data/processed/
+storage/
+models/
+.cache/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
